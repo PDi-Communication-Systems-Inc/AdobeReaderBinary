@@ -7,8 +7,8 @@ LOCAL_SDK_VERSION := current
 LOCAL_CERTIFICATE := shared
 
 # Module name should match apk name to be installed.
-#LOCAL_MODULE := com.adobe.reader_10.6.1
-LOCAL_MODULE := AdobeReader
+LOCAL_MODULE := com.adobe.reader_10.6.1
+#LOCAL_MODULE := AdobeReader
 LOCAL_REQUIRED_MODULES := libAdobeReader.so
 LOCAL_SRC_FILES := $(LOCAL_MODULE).apk
 LOCAL_MODULE_CLASS := APPS
